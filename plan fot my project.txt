@@ -1,0 +1,9 @@
+Creating a "Dienstradl" to plan the monthly workload for staff members in a labratory -
+it should rotate, so that everyone can be in a differnet working place on different days
+
+input: database 1 with staff name, working hours, qualicifaction, availability
+input: database 2 with work area, working hours, needed qualicifaction
+
+output: a specific day with a specific plan with all the working areas - which person works in
+which area on this and that day
+
