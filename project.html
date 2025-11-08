@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Labor Shift Rotation</title>
+  <style>
+    body { font-family: Arial; margin: 20px; }
+    #wheel { margin-top: 20px; padding: 20px; border: 2px solid #333; border-radius: 10px; width: 300px; min-height: 100px; text-align: center; }
+    select, button, input { margin: 10px 0; padding: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Labor Shift Rotation</h1>
+
+  <label>Datei hochladen:</label>
+  <input type="file" id="fileInput" accept=".json"><br>
+
+  <label>Abteilung:</label>
+  <select id="areaSelect"></select><br>
+
+  <button id="rotateBtn">🔄 Rotate</button>
+
+  <div id="wheel">Noch keine Daten</div>
+
+  <script src="app.js"></script>
+</body>
+</html>

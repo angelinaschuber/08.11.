@@ -1,0 +1,12 @@
+{
+  "staff": [
+    {"name": "Angelina", "hours": 25, "qualifications": ["Hematology", "Chemistry"], "availableDays": ["Monday", "Tuesday", "Saturday", "Sunday"]},
+    {"name": "Mark", "hours": 30, "qualifications": ["Chemistry", "Coagulation"], "availableDays": ["Monday", "Wednesday", "Thursday"]},
+    {"name": "Lena", "hours": 20, "qualifications": ["Reception", "Hematology"], "availableDays": ["Friday", "Saturday"]}
+  ],
+  "areas": [
+    {"name": "Hematology", "requiredStaff": 1},
+    {"name": "Chemistry", "requiredStaff": 1},
+    {"name": "Night Shift", "requiredStaff": 1}
+  ]
+}
